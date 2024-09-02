@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HammersmithOne';
+    src: url(/Arquivos\ desing/HammersmithOne-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+#Corpo_login {
+    background-image: url(/Arquivos\ desing/Backgroud\ -\ Login.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Corpo_login::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+}
+
+#FormulárioDiv{
+    height: 450px;
+    width: 600px;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.75;
+    border-radius: 15px;
+    border: 2px solid #1a191930 ;
+    backdrop-filter: blur(10px);
+    font-family:"HammersmithOne";
+    align-items: center;
+}
+
+#Titulo_Login{
+    color: rgb(255, 128, 0);
+    font-size: 60px;
+    text-align: center;
+    position: absolute;
+    top: 5.5%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
+    font-family:"HammersmithOne";
+    opacity: 0.75;
+}
+
+.InputsLogin:focus {
+    outline: none;
+}
+
+.InputsLogin::placeholder {
+    color: rgb(157, 155, 155);
+}
+
+.InputsLogin{
+    width: 480px;
+    height: 50px;
+    border-radius: 7px;
+    border: 0;
+    font-size: 18px;
+    padding: 15px;
+    font-family: "HammersmithOne";
+    color: rgb(255, 128, 0);
+    border: solid rgba(0, 0, 0, 0.899) 3px;
+    transition-duration: 0.5s;
+    background-color: #000000; 
+}
+
+#InputEmail{
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#InputSenha{
+    position: absolute;
+    top: 24%;
+    left: 9.9%;
+    width: 420px;
+    height: 50px;
+}
+
+#VerSenha{
+    width: 50px;
+    height: 50px;
+    top: 24%;
+    position: absolute;
+    left: 82%;
+    border-radius: 7px;
+    border: 0;
+    background-color: rgb(255, 128, 0); 
+    cursor:pointer;
+}
+
+#IconVendoSenha{
+    font-size: 25px;
+    display: none;
+}
+
+#IconNãoVendoSenha{
+    font-size: 25px;
+    display: block;
+}
+
+#BotãoConfirmar{
+    width: 480px;
+    height: 50px;
+    border-radius: 7px;
+    border: 0;
+    font-size: 20px;
+    padding: 15px;
+    font-family: "HammersmithOne";
+    background-color: rgb(255, 128, 0); 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 42%;
+    transition:unset;
+    transition-duration: 0.3s;
+}
+
+#BotãoConfirmar:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 128, 0);
+    transition:unset;
+    transition-duration: 0.3s;
+    text-decoration:border;
+    outline: rgb(255, 128, 0) 2px solid;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+#LinhaDIV{
+    background-color: rgb(255, 128, 0);
+    width: 478px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 70%;
+}
+
+#RecuperarSenha{
+    color:white ;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 60%;
+}
+
+#RecuperarSenha:hover{
+    text-decoration:underline;
+}
+
+#BotãoCriar{
+    width: 480px;
+    height: 50px;
+    border-radius: 7px;
+    border: 0;
+    font-size: 20px;
+    padding: 15px;
+    font-family: "HammersmithOne";
+    background-color: rgb(255, 128, 0); 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 78%;
+    transition:unset;
+    transition-duration: 0.3s;
+}
+
+#BotãoCriar:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 128, 0);
+    transition:unset;
+    transition-duration: 0.3s;
+    text-decoration:border;
+    outline: rgb(255, 128, 0) 2px solid;
+    cursor:pointer;
+    font-weight: bold;
+}
