@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'HammersmithOne';
-    src: url(/Arquivos\ desing/HammersmithOne-Regular.ttf) format('truetype');
+    src: url('Arquivos desing/HammersmithOne-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 #Corpo_login {
-    background-image: url(/Arquivos\ desing/Backgroud\ -\ Login.jpeg);
+    background-image: url('Arquivos desing/Backgroud - Login.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
