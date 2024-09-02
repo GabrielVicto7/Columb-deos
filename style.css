@@ -134,6 +134,11 @@
     top: 42%;
     transition:unset;
     transition-duration: 0.3s;
+     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
 }
 
 #BotãoConfirmar:hover{
@@ -145,6 +150,11 @@
     outline: rgb(255, 128, 0) 2px solid;
     cursor:pointer;
     font-weight: bold;
+     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
 }
 
 #LinhaDIV{
@@ -164,10 +174,20 @@
     left: 50%;
     transform: translate(-50%);
     top: 60%;
+     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
 }
 
 #RecuperarSenha:hover{
     text-decoration:underline;
+     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
 }
 
 #BotãoCriar{
@@ -185,6 +205,11 @@
     top: 78%;
     transition:unset;
     transition-duration: 0.3s;
+     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
 }
 
 #BotãoCriar:hover{
@@ -196,4 +221,9 @@
     outline: rgb(255, 128, 0) 2px solid;
     cursor:pointer;
     font-weight: bold;
+     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
 }
